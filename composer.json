@@ -1,6 +1,7 @@
 {
     "name": "temper/laravel-nullable-properties",
     "description": "",
+    "license": "MIT",
     "authors": [
         {
             "name": "Temper",
