@@ -1,0 +1,37 @@
+{
+    "name": "temper/laravel-nullable-properties",
+    "description": "",
+    "authors": [
+        {
+            "name": "Temper",
+            "email": "info@temper.works"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "orchestra/testbench": "^6.12"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Temper\\NullableProperties\\Providers\\NullablePropertiesServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Temper\\NullableProperties\\": ""
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit Tests/"
+        ]
+    }
+}
